@@ -9,6 +9,8 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
  */
 public class Character extends Sprite {
 
+    public CharacterSkills charSkills;
+
     private int health;
     private int strength;
     private int defense;
@@ -23,16 +25,26 @@ public class Character extends Sprite {
     private int maxSpeed; //Max is 20
     private int maxMovement; //Max is 10
 
+    private CharacterType type;
     private CharacterAnimation anim;
 
-    public Character(int health, int strength, int defense, int luck, int speed, int movement, CharacterAnimation anim){
+    public Character(int health, int strength, int defense, int luck, int speed, int movement, int maxHealth, int maxStrength,
+                     int maxDefense, int maxLuck, int maxSpeed, int maxMovement, CharacterType type, CharacterAnimation anim){
         this.health = health;
         this.strength = strength;
         this.defense = defense;
         this.luck = luck;
         this.speed = speed;
         this.movement = movement;
+        this.maxHealth = maxHealth;
+        this.maxStrength = maxStrength;
+        this.maxDefense = maxDefense;
+        this.maxLuck = maxLuck;
+        this.maxSpeed = maxSpeed;
+        this.maxMovement = maxMovement;
         this.anim = anim;
+        this.type = type;
+        this.charSkills = new CharacterSkills(this);
     }
 
     public void update(float delta){
