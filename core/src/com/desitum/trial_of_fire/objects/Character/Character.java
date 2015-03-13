@@ -51,4 +51,99 @@ public class Character extends Sprite {
 
     }
 
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
+    }
+
+    public int getLuck() {
+        return luck;
+    }
+
+    public void setLuck(int luck) {
+        this.luck = luck;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public int getMovement() {
+        return movement;
+    }
+
+    public void setMovement(int movement) {
+        this.movement = movement;
+    }
+
+    public int getMaxHealth() {
+        return maxHealth;
+    }
+
+    public void setMaxHealth(int maxHealth) {
+        this.maxHealth = maxHealth;
+    }
+
+    public int getMaxStrength() {
+        return maxStrength;
+    }
+
+    public void setMaxStrength(int maxStrength) {
+        this.maxStrength = maxStrength;
+    }
+
+    public int getMaxDefense() {
+        return maxDefense;
+    }
+
+    public void setMaxDefense(int maxDefense) {
+        this.maxDefense = maxDefense;
+    }
+
+    public int getMaxLuck() {
+        return maxLuck;
+    }
+
+    public void setMaxLuck(int maxLuck) {
+        this.maxLuck = maxLuck;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public int getMaxMovement() {
+        return maxMovement;
+    }
+
+    public void setMaxMovement(int maxMovement) {
+        this.maxMovement = maxMovement;
+    }
 }
