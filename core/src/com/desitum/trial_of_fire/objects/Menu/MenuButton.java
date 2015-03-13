@@ -1,4 +1,4 @@
-package com.desitum.trial_of_fire.objects;
+package com.desitum.trial_of_fire.objects.Menu;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;

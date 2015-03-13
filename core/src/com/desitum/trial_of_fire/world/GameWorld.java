@@ -1,6 +1,6 @@
 package com.desitum.trial_of_fire.world;
 
-import com.desitum.trial_of_fire.objects.Character;
+import com.desitum.trial_of_fire.objects.Character.Character;
 
 import java.util.ArrayList;
 

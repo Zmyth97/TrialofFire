@@ -1,4 +1,4 @@
-package com.desitum.trial_of_fire.objects;
+package com.desitum.trial_of_fire.objects.World;
 
 /**
  * Created by dvan6234 on 3/12/2015.
