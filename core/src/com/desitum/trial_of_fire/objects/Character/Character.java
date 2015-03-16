@@ -9,6 +9,8 @@ public class Character extends Sprite {
 
     public CharacterSkills charSkills;
 
+    public String name;
+
     private int health;
     private int strength;
     private int defense;
@@ -26,8 +28,9 @@ public class Character extends Sprite {
     private CharacterType type;
     private CharacterAnimation anim;
 
-    public Character(int health, int strength, int defense, int luck, int speed, int movement, int maxHealth, int maxStrength,
+    public Character(String name, int health, int strength, int defense, int luck, int speed, int movement, int maxHealth, int maxStrength,
                      int maxDefense, int maxLuck, int maxSpeed, int maxMovement, CharacterType type, CharacterAnimation anim){
+        this.name = name;
         this.health = health;
         this.strength = strength;
         this.defense = defense;
