@@ -1,7 +1,5 @@
 package com.desitum.trial_of_fire.objects.Character;
 
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
 /**
@@ -145,5 +143,9 @@ public class Character extends Sprite {
 
     public void setMaxMovement(int maxMovement) {
         this.maxMovement = maxMovement;
+    }
+
+    public void select(){
+        //TODO idk yet...
     }
 }
