@@ -148,4 +148,12 @@ public class Character extends Sprite {
     public void select(){
         //TODO idk yet...
     }
+
+    @Override
+    public String toString(){
+        String returnString = "";
+        returnString += name;
+        returnString += "," + health;
+        returnString += "," +
+    }
 }

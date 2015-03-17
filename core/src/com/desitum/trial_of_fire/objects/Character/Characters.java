@@ -1,6 +1,7 @@
 package com.desitum.trial_of_fire.objects.Character;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by kody on 3/15/15.
@@ -16,10 +17,15 @@ public class Characters {
     public static final int MOVEMENT = 5;
 
     public Character buildCharacterFromArray(ArrayList<String> characterAttributes){
-        return new Character();
+        return new Character(Integer.parseIntcharacterAttributes.get(HEALTH)),
+                Integer.parseInt(characterAttributes.get(STRENGTH)),
+                Integer.parseInt(characterAttributes.get(LUCK)),
+                Integer.parseInt(characterAttributes.get(SPEED)),
+                Integer.parseInt(characterAttributes.get(MOVEMENT)));
     }
 
     public Character buildCharacterFromString(String characterString){
-        characterString.split(",");return new Character();
+        ArrayList<String> returnArray = new ArrayList<String>(Arrays.asList(characterString.split(",")));
+        return buildCharacterFromArray(returnArray);
     }
 }
