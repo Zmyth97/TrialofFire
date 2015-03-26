@@ -9,5 +9,5 @@ import java.util.ArrayList;
  */
 public class MenuWorld {
 
-    private ArrayList<MenuButton>
+    private ArrayList<MenuButton> buttons;
 }
