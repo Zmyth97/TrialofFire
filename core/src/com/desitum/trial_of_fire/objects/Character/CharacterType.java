@@ -13,4 +13,9 @@ public class CharacterType {
     public CharacterType(){
 
     }
+
+    public static CharacterType buildFromString(String parseFrom){
+        //TODO needs to return a CharacterType from String
+        return new CharacterType();
+    }
 }

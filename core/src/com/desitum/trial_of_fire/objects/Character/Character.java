@@ -157,6 +157,19 @@ public class Character extends Sprite {
         String returnString = "";
         returnString += name;
         returnString += "," + health;
-        returnString += "," +
+        returnString += "," + strength;
+        returnString += "," + defense;
+        returnString += "," + luck;
+        returnString += "," + speed;
+        returnString += "," + movement;
+        returnString += "," + maxHealth;
+        returnString += "," + maxStrength;
+        returnString += "," + maxDefense;
+        returnString += "," + maxLuck;
+        returnString += "," + maxSpeed;
+        returnString += "," + maxMovement;
+        returnString += "," + type.toString();
+        returnString += "," + anim.toString();
+        return returnString;
     }
 }
